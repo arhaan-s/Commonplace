@@ -20,7 +20,8 @@ For a shareable hackathon demo, publish the folder as a static site through Verc
 - Chore schedule with cleaning, garbage, and snow categories, assignees, dates, completion toggles, and filters.
 - Shared shopping list with add, bought, remove, and clear bought actions.
 - Household expenses with payer, equal split selection, monthly filtering, per member balances, and sample expenses.
-- Add a housemate and assign them tasks or include them in future expense splits.
+- Add or remove housemates. Removing one reassigns their chores, removes expenses they paid, and updates other splits.
+- Add or remove chores and expenses.
 - Data persists in the current browser using `localStorage`.
 
 ## Current demo limitations
