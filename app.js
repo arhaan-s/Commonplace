@@ -1,5 +1,7 @@
 (() => {
-  const STORE = 'commonplace-household-v1';
+  // Bump this key when refreshing the public demo so stale empty browser data
+  // does not hide the seeded housemates and chores on GitHub Pages.
+  const STORE = 'commonplace-household-v2';
   const palette = ['avatar-sage', 'avatar-coral', 'avatar-lilac', 'avatar-blue', 'avatar-yellow'];
   const initials = name => name.trim().split(/\s+/).map(x => x[0]).join('').slice(0, 2).toUpperCase();
   const dateISO = offset => { const d = new Date(); d.setHours(12,0,0,0); d.setDate(d.getDate() + offset); return d.toISOString().slice(0,10); };
